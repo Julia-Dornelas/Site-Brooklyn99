@@ -1,0 +1,92 @@
+/*MENU*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;1,200;1,400&family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+    --CinzaMtClaro: #515151;
+    --CinzaClaro: #1F2127;
+    --CinzaEscuro: #0D0E11;
+    --Branco: white;
+    --Amarelo: #FEF433;
+}
+
+
+body {
+    background-color: var(--CinzaClaro);
+    color: var(--Branco);
+    text-align: justify;
+}
+
+.Ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.FonteTitulo {
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.Paragrafo {
+    font-size: 14px;
+}
+
+.SubTitulo {
+    font-size: 16px;
+}
+
+/*header*/
+
+a {
+    color: var(--Branco);
+}
+
+a:hover {
+    color: var(--Amarelo);
+}
+
+nav {
+    background-color: var(--CinzaEscuro);
+}
+
+.IconHeader {
+    background-color: var(--Branco);
+}
+
+.TituloLogo {
+    color: var(--Amarelo);
+}
+
+/*CONTEÙDO*/
+
+.BannerPrincipal {
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Footer*/
+footer {
+    background-color: var(--CinzaMtClaro);
+}
+
+.TituloFooter {
+    color: var(--Amarelo);
+}
+
+.MapaSite {
+    color: var(--CinzaEscuro);
+}
+
+.ListaFooter {
+    list-style: none;
+}
+
+.TamanhoMapaSite {
+    width: 200px;
+}
+
+.Direitos {
+    color: var(--Amarelo);
+}
